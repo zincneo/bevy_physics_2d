@@ -1,0 +1,8 @@
+[package]
+name = "bevy_demos"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+bevy = { version = "0.18.1", default-features = false, features = ["2d_bevy_render", "wayland"] }
+bevy_rapier2d = "0.33.0"
