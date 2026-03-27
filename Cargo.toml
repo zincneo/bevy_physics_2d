@@ -20,3 +20,31 @@ opt-level = 3
 [profile.release]
 codegen-units = 1
 lto = "thin"
+
+[[example]]
+name = "rigidbody"
+path = "examples/physics/demo_01_rigidbody.rs"
+
+[[example]]
+name = "collider"
+path = "examples/physics/demo_02_collider.rs"
+
+[[example]]
+name = "velocity_gravity"
+path = "examples/physics/demo_03_velocity_gravity.rs"
+
+[[example]]
+name = "force_impulse"
+path = "examples/physics/demo_04_force_impulse.rs"
+
+[[example]]
+name = "locking_daming"
+path = "examples/physics/demo_05_locking_daming.rs"
+
+[[example]]
+name = "friction_restitution"
+path = "examples/physics/demo_06_friction_restitution.rs"
+
+[[example]]
+name = "joint"
+path = "examples/physics/demo_07_joint.rs"
