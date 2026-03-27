@@ -6,6 +6,7 @@
       system = "x86_64-linux";
       pkgs = nixpkgs.legacyPackages.${system};
       buildPackages = with pkgs; [
+        clang
         pkg-config
       ];
       runtimePackages = with pkgs; [
