@@ -48,3 +48,7 @@ path = "examples/physics/demo_06_friction_restitution.rs"
 [[example]]
 name = "joint"
 path = "examples/physics/demo_07_joint.rs"
+
+[[example]]
+name = "sprite"
+path = "examples/sprite/demo_01_sprite.rs"
