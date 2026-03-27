@@ -52,3 +52,7 @@ path = "examples/physics/demo_07_joint.rs"
 [[example]]
 name = "sprite"
 path = "examples/sprite/demo_01_sprite.rs"
+
+[[example]]
+name = "sprite_flipping"
+path = "examples/sprite/demo_02_flipping.rs"
