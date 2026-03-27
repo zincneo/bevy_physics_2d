@@ -56,3 +56,7 @@ path = "examples/sprite/demo_01_sprite.rs"
 [[example]]
 name = "sprite_flipping"
 path = "examples/sprite/demo_02_flipping.rs"
+
+[[example]]
+name = "sprite_tile"
+path = "examples/sprite/demo_03_sprite_tile.rs"
